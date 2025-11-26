@@ -1,0 +1,89 @@
+body {
+  background: #0c1b33;
+  font-family: Arial;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: #1f2a44;
+  padding: 25px;
+  border-radius: 12px;
+  width: 650px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-box input,
+button,
+select {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#addBtn {
+  background: #6c63ff;
+  color: white;
+  cursor: pointer;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#deleteAll {
+  background: #ff4b4b;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+.empty {
+  color: gray;
+}
+
+.status-done {
+  color: #6aff6a;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #ffcd4b;
+  font-weight: bold;
+}
+
+.action-btn {
+  background: #6c63ff;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff4b4b;
+}
